@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+/* purge start ignore */
+
+  *, *:before, *:after {
+  @apply box-border;
+}
+
+@layer base {
+  body {;
+    @apply relative antialiased text-gray-600 dark:text-gray-300 bg-gray-100 dark:bg-gray-900 
+    leading-normal tracking-normal font-normal break-words font-sans text-base lg:text-xl;
+  }
+
+  a {
+    @apply text-blue-600 dark:text-blue-400 no-underline focus:outline-none focus:underline;
+  }
+
+  h1 {
+    @apply text-5xl font-extrabold mb-4 text-gray-600 dark:text-gray-400;
+  }
+
+  h2 {
+    @apply m-0 text-xl font-bold;
+  }
+
+  h3 {
+    @apply text-base leading-5 font-bold;
+  }
+
+  button {
+    @apply focus:outline-none;
+  }
+}
+
+@layer components {
+  .page {
+    @apply flex flex-col h-full;
+}
+
+  .main {
+    @apply flex-1 bg-gray-100 dark:bg-gray-600 text-center;
+    min-height: 500px;
+  }
+
+  .container {
+    @apply max-w-screen-2xl lg:px-20 px-1 w-full mx-auto my-0;
+  }
+
+  .container-no-height {
+    @apply max-w-screen-2xl lg:px-20 w-full mx-auto my-0;
+  }
+
+  .header {
+    @apply fixed top-0 left-0 w-full z-100 bg-white shadow-sub;
+  }
+
+  .footer {
+    @apply relative z-75 active:z-100 text-white text-opacity-60 bg-gray-800;
+  }
+}
+
+/* purge end ignore */

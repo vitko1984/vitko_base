@@ -1,0 +1,36 @@
+{
+  "name": "vitko_base",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.2.2",
+    "@sveltejs/kit": "^1.0.0-next.113",
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "postcss-load-config": "^3.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "svelte": "^3.34.0",
+    "svelte-facebook-login": "^1.3.0",
+    "svelte-preprocess": "^4.7.3",
+    "svelte-use-click-outside": "^1.0.0",
+    "tailwindcss": "^2.1.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.2.2",
+    "@lukeed/uuid": "^2.0.0",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.17",
+    "@sveltejs/adapter-node": "^1.0.0-next.24",
+    "@sveltejs/adapter-static": "^1.0.0-next.13",
+    "@sveltejs/adapter-vercel": "^1.0.0-next.22",
+    "cookie": "^0.4.1",
+    "svelte-adapter-firebase": "^0.8.4"
+  }
+}
