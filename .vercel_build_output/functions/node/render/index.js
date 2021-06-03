@@ -2883,9 +2883,9 @@ function init(settings) {
     amp: false,
     dev: false,
     entry: {
-      file: "/./_app/start-5bbed95a.js",
+      file: "/./_app/start-23fcd33f.js",
       css: ["/./_app/assets/start-0826e215.css"],
-      js: ["/./_app/start-5bbed95a.js", "/./_app/chunks/vendor-3b9a9427.js"]
+      js: ["/./_app/start-23fcd33f.js", "/./_app/chunks/vendor-3b9a9427.js"]
     },
     fetched: void 0,
     floc: false,
@@ -2993,7 +2993,7 @@ var module_lookup = {
     return index;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "/./_app/pages/__layout.svelte-73d0d0e9.js", "css": ["/./_app/assets/pages/__layout.svelte-93dd1bc4.css"], "js": ["/./_app/pages/__layout.svelte-73d0d0e9.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-3cbcd7a7.js", "css": [], "js": ["/./_app/error.svelte-3cbcd7a7.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-477c52b0.js", "css": ["/./_app/assets/pages/index.svelte-a47133f8.css"], "js": ["/./_app/pages/index.svelte-477c52b0.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null }, "src/routes/about.svelte": { "entry": "/./_app/pages/about.svelte-edf4c337.js", "css": ["/./_app/assets/pages/about.svelte-51ba7a34.css"], "js": ["/./_app/pages/about.svelte-edf4c337.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null }, "src/routes/todos/index.svelte": { "entry": "/./_app/pages/todos/index.svelte-7a8ee9c9.js", "css": ["/./_app/assets/pages/todos/index.svelte-ab14594b.css"], "js": ["/./_app/pages/todos/index.svelte-7a8ee9c9.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "/./_app/pages/__layout.svelte-00611141.js", "css": ["/./_app/assets/pages/__layout.svelte-93dd1bc4.css"], "js": ["/./_app/pages/__layout.svelte-00611141.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-3cbcd7a7.js", "css": [], "js": ["/./_app/error.svelte-3cbcd7a7.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-477c52b0.js", "css": ["/./_app/assets/pages/index.svelte-a47133f8.css"], "js": ["/./_app/pages/index.svelte-477c52b0.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null }, "src/routes/about.svelte": { "entry": "/./_app/pages/about.svelte-edf4c337.js", "css": ["/./_app/assets/pages/about.svelte-51ba7a34.css"], "js": ["/./_app/pages/about.svelte-edf4c337.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null }, "src/routes/todos/index.svelte": { "entry": "/./_app/pages/todos/index.svelte-7a8ee9c9.js", "css": ["/./_app/assets/pages/todos/index.svelte-ab14594b.css"], "js": ["/./_app/pages/todos/index.svelte-7a8ee9c9.js", "/./_app/chunks/vendor-3b9a9427.js"], "styles": null } };
 async function load_component(file) {
   return {
     module: await module_lookup[file](),
@@ -4017,7 +4017,7 @@ var AuthFacebook = create_ssr_component(($$result, $$props, $$bindings, slots) =
   return `${validate_component(FacebookLogin, "FacebookLogin").$$render($$result, {
     clientId: "2918569291764665",
     state: "1",
-    redirectUri: "http://localhost:3000"
+    redirectUri: "#"
   }, {}, {
     default: ({ onLogin }) => `<button type="${"button"}" name="${"button"}" class="${"uppercase w-40 h-14 flex justify-center items-center font-bold border-0 mr-4 text-white bg-blue-800 hover:bg-blue-600 rounded-sm"}"><img${add_attribute("src", fb, 0)} alt="${"Facebook"}" class="${"mr-5"}">
     Facebook
