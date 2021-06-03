@@ -7,7 +7,7 @@ import { modal } from '../../routes/localStore';
 <FacebookLogin
   clientId="2918569291764665"
   state="1"
-  redirectUri="#"
+  redirectUri="vitko-base.vercel.app"
   on:success={params => {console.log('params: ', params); $modal = {show:false, event: ''};}}
   on:error={error => console.log(error)}
   let:onLogin
