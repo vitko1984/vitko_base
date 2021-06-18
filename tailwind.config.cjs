@@ -51,6 +51,7 @@ module.exports = {
     extend: {
       textColor: ['visited'],
       backdropFilter: ['hover', 'focus'],
+      margin: ['last'],
     },
   },
   plugins: [],

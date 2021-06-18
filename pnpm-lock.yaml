@@ -20,6 +20,8 @@ specifiers:
   svelte: ^3.34.0
   svelte-adapter-firebase: ^0.8.4
   svelte-facebook-login: ^1.3.0
+  svelte-forms: ^1.1.51
+  svelte-imask: ^1.2.0
   svelte-preprocess: ^4.7.3
   svelte-use-click-outside: ^1.0.0
   tailwindcss: ^2.1.2
@@ -46,6 +48,8 @@ devDependencies:
   postcss-preset-env: 6.7.0
   svelte: 3.38.2
   svelte-facebook-login: 1.3.0
+  svelte-forms: 1.1.51_svelte@3.38.2
+  svelte-imask: 1.2.0
   svelte-preprocess: 4.7.3_6cd6841e124702d3f87bf59f94791af9
   svelte-use-click-outside: 1.0.0
   tailwindcss: 2.1.2_797cfc3ceddb49f111b184f6879a433f
@@ -951,6 +955,11 @@ packages:
   /ignore/5.1.8:
     resolution: {integrity: sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==}
     engines: {node: '>= 4'}
+    dev: true
+
+  /imask/6.0.7:
+    resolution: {integrity: sha512-zyiKRSzuocb2adasVSz0ku9xxejDRs5wME7Dt5Uk1l83HGBFUP7A8y8Z6TytLCtCiS/A1aArlCTqLcOkoVNbNQ==}
+    engines: {npm: '>=4.0.0'}
     dev: true
 
   /import-cwd/3.0.0:
@@ -2210,12 +2219,26 @@ packages:
     resolution: {integrity: sha512-fukAL8VkyE9VNPRNe2XrlTbylsY+L8b6mbjYaEAAw/Ry+H+d6/XDoVbb52DZdu2ZMgRfJJkCJwrGIaNY7a7dPA==}
     dev: true
 
+  /svelte-forms/1.1.51_svelte@3.38.2:
+    resolution: {integrity: sha512-4SRwe0pJA9KvirkLAbi2uf4LWA3PoUS34bJkpqbgNFXERFVtSCbt9ZJ3Phu/bbRbYuQ6MptD7HuqsDZbCXd8Hw==}
+    peerDependencies:
+      svelte: ^3.0.0
+    dependencies:
+      svelte: 3.38.2
+    dev: true
+
   /svelte-hmr/0.14.4_svelte@3.38.2:
     resolution: {integrity: sha512-kItFF7vqzStckSigoFmMnxJpTOdB9TWnQAW6Js+yAB4277tLbJIIE5KBlGHNmJNpA7MguqidsPB27Uw5UzQPCA==}
     peerDependencies:
       svelte: '>=3.19.0'
     dependencies:
       svelte: 3.38.2
+    dev: true
+
+  /svelte-imask/1.2.0:
+    resolution: {integrity: sha512-5LNUhokQ3rG3jkjIxewI2VIxoOYdrBCcnLIUddA9qmIO9dhDH+Qs2FkKm7wRsZy3x6WbwOjB4EvEoTMR8KrFqg==}
+    dependencies:
+      imask: 6.0.7
     dev: true
 
   /svelte-preprocess/4.7.3_6cd6841e124702d3f87bf59f94791af9:

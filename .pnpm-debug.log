@@ -7,15 +7,15 @@
     "errno": "ENOENT",
     "syscall": "spawn",
     "file": "sh",
-    "pkgid": "~TODO~@0.0.1",
+    "pkgid": "vitko_base@0.0.1",
     "stage": "dev",
     "script": "svelte-kit dev",
-    "pkgname": "~TODO~",
+    "pkgname": "vitko_base",
     "err": {
       "name": "Error",
-      "message": "~TODO~@0.0.1 dev: `svelte-kit dev`\nspawn ENOENT",
+      "message": "vitko_base@0.0.1 dev: `svelte-kit dev`\nspawn ENOENT",
       "code": "ELIFECYCLE",
-      "stack": "Error: ~TODO~@0.0.1 dev: `svelte-kit dev`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.3.0/node_modules/pnpm/dist/pnpm.cjs:89015:20)\n    at ChildProcess.emit (events.js:376:20)\n    at maybeClose (internal/child_process.js:1055:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
+      "stack": "Error: vitko_base@0.0.1 dev: `svelte-kit dev`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.6.2/node_modules/pnpm/dist/pnpm.cjs:93239:22)\n    at ChildProcess.emit (events.js:376:20)\n    at maybeClose (internal/child_process.js:1055:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
     }
   }
 }

@@ -17,3 +17,6 @@ export function localStore(key, value) {
 }
 
 export let modal = writable({});
+export let isSendingSmsCode = writable(false);
+export let isSendingEmailCode = writable(false);
+export let authErrCode = writable(null);

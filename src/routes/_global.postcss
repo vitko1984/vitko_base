@@ -34,6 +34,24 @@
   button {
     @apply focus:outline-none;
   }
+
+  input[type="text"],
+  input[type="submit"],
+  input[type="button"],
+  input[type="password"],
+  input[type="tel"],
+  select,
+  textarea {
+    @apply appearance-none focus:outline-none;
+  }
+
+  input {
+    @apply bg-gray-100 border border-solid border-gray-200 dark:border-gray-700 rounded-sm h-12 w-full mt-0 mx-0 mb-2 py-3 px-5 text-gray-400 text-sm;
+  }
+
+  input.disabled {
+    @apply opacity-50 pointer-events-none;
+  }
 }
 
 @layer components {
@@ -60,6 +78,22 @@
 
   .footer {
     @apply relative z-75 active:z-100 text-white text-opacity-60 bg-gray-800;
+  }
+
+  .btn {
+    @apply appearance-none relative inline-flex items-center bg-blue-500 rounded-sm text-white whitespace-nowrap cursor-pointer p-4 font-semibold transition-colors duration-300 ease-in-out;
+  }
+
+  .btn--big {
+    @apply uppercase w-full justify-center hover:bg-blue-600;
+  }
+
+  .btn--success {
+    @apply bg-green-500 hover:bg-green-600;
+  }
+
+  .input-code {
+    @apply text-center;
   }
 }
 

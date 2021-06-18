@@ -78,11 +78,11 @@
   }
 
   .search__input {
-    @apply bg-transparent text-sm font-normal w-full;
+    @apply bg-transparent text-sm font-normal w-full h-4;
   }
 
   .search__form {
-    @apply flex md:justify-start px-4 border-none md:border md:border-solid md:border-gray-500 md:rounded-lg;
+    @apply h-8 pt-0.5 flex md:justify-start px-4 border-none md:border md:border-solid md:border-gray-500 md:rounded-lg;
   }
 
   .active-input {
